@@ -21,6 +21,7 @@
 		7D96D95C2A4F3EF100CC90E1 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D95B2A4F3EF100CC90E1 /* FirstTableViewCell.swift */; };
 		7D96D95E2A4F53EC00CC90E1 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D95D2A4F53EC00CC90E1 /* WriteViewController.swift */; };
 		7D96D9602A4F68D800CC90E1 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D95F2A4F68D800CC90E1 /* SecondTableViewCell.swift */; };
+		7D96D9642A4F81B300CC90E1 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D9632A4F81B300CC90E1 /* ReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7D96D95B2A4F3EF100CC90E1 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		7D96D95D2A4F53EC00CC90E1 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		7D96D95F2A4F68D800CC90E1 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		7D96D9632A4F81B300CC90E1 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		8AA4E2F095AB4ED112AA41D3 /* Pods-SilverConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverConnect.release.xcconfig"; path = "Target Support Files/Pods-SilverConnect/Pods-SilverConnect.release.xcconfig"; sourceTree = "<group>"; };
 		ACCB9613FF2C884CC3410A27 /* Pods-SilverConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverConnect.debug.xcconfig"; path = "Target Support Files/Pods-SilverConnect/Pods-SilverConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		EBAEA31768FE1CFBC9CE9A8F /* Pods_SilverConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 				7D45DBCD2A4EF3130001CF97 /* LaunchScreen.storyboard */,
 				7D45DBD02A4EF3130001CF97 /* Info.plist */,
 				7D96D95D2A4F53EC00CC90E1 /* WriteViewController.swift */,
+				7D96D9632A4F81B300CC90E1 /* ReadViewController.swift */,
 			);
 			path = SilverConnect;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				7D96D9532A4F182800CC90E1 /* FirstViewController.swift in Sources */,
 				7D96D9572A4F1A0900CC90E1 /* MyPageViewController.swift in Sources */,
 				7D45DBC72A4EF3120001CF97 /* ViewController.swift in Sources */,
+				7D96D9642A4F81B300CC90E1 /* ReadViewController.swift in Sources */,
 				7D45DBC32A4EF3120001CF97 /* AppDelegate.swift in Sources */,
 				7D96D9552A4F183A00CC90E1 /* SecondViewController.swift in Sources */,
 				7D96D9602A4F68D800CC90E1 /* SecondTableViewCell.swift in Sources */,

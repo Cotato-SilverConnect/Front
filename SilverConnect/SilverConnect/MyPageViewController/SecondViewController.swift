@@ -62,38 +62,26 @@ extension SecondViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableMain.deselectRow(at: indexPath, animated: true)
         
-//        print("Click Cell Number: " + String(indexPath.row))
-//        let alert = UIAlertController(title: "Cell Selected", message: "You have selected cell #\(indexPath.row)", preferredStyle: .alert)
-//
-//        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-//
-//        alert.addAction(okAction)
-//
-//        self.present(alert, animated: true, completion: nil)
-//
-//        // Cell 선택 효과를 없애는 코드
-//        tableView.deselectRow(at: indexPath, animated: true)
-        // 사용자가 cell을 선택했을 때 alert를 띄우는 코드
-                let alert = UIAlertController(title: titleData[indexPath.row], message: "You have selected", preferredStyle: .alert)
-                
-                let cancelAction = UIAlertAction(title: "취소하기", style: .cancel, handler: nil)
-                let rateAction = UIAlertAction(title: "평가하기", style: .default) { action in
-                    print("평가하기 action triggered")
-                    // 여기에 평가하기 액션에 대한 동작을 추가합니다.
-                }
-                let seePostAction = UIAlertAction(title: "게시글 보기", style: .default) { action in
-                    print("게시글 보기 action triggered")
-                    // 여기에 게시글 보기 액션에 대한 동작을 추가합니다.
-                }
-                
-                alert.addAction(cancelAction)
-                alert.addAction(rateAction)
-                alert.addAction(seePostAction)
-                
-                self.present(alert, animated: true, completion: nil)
-                
-                // Cell 선택 효과를 없애는 코드
-                tableView.deselectRow(at: indexPath, animated: true)
+        let alert = UIAlertController(title: titleData[indexPath.row], message: "You have selected", preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "취소하기", style: .cancel, handler: nil)
+        let rateAction = UIAlertAction(title: "평가하기", style: .default) { action in
+            print("평가하기 action triggered")
+            // 여기에 평가하기 액션에 대한 동작을 추가합니다.
+        }
+        let seePostAction = UIAlertAction(title: "게시글 보기", style: .default) { action in
+            print("게시글 보기 action triggered")
+            // 여기에 게시글 보기 액션에 대한 동작을 추가합니다.
+        }
+        
+        alert.addAction(cancelAction)
+        alert.addAction(rateAction)
+        alert.addAction(seePostAction)
+        
+        self.present(alert, animated: true, completion: nil)
+        
+        // Cell 선택 효과를 없애는 코드
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
