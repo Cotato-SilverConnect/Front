@@ -7,4 +7,6 @@ target 'SilverConnect' do
 
   # Pods for SilverConnect
 
+  pod 'Tabman', '~> 2.9'
+
 end
