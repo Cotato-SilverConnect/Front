@@ -22,6 +22,10 @@
 		7D96D95E2A4F53EC00CC90E1 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D95D2A4F53EC00CC90E1 /* WriteViewController.swift */; };
 		7D96D9602A4F68D800CC90E1 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D95F2A4F68D800CC90E1 /* SecondTableViewCell.swift */; };
 		7D96D9642A4F81B300CC90E1 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D9632A4F81B300CC90E1 /* ReadViewController.swift */; };
+		7D96D9662A4F8DC600CC90E1 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 7D96D9652A4F8DC600CC90E1 /* Model */; };
+		7D96D9682A4F8DE700CC90E1 /* Service in Resources */ = {isa = PBXBuildFile; fileRef = 7D96D9672A4F8DE700CC90E1 /* Service */; };
+		7D96D96A2A4F8DFF00CC90E1 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 7D96D9692A4F8DFF00CC90E1 /* ViewController */; };
+		7D96D96C2A4F921300CC90E1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96D96B2A4F921300CC90E1 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		7D96D95D2A4F53EC00CC90E1 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		7D96D95F2A4F68D800CC90E1 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 		7D96D9632A4F81B300CC90E1 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		7D96D9652A4F8DC600CC90E1 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		7D96D9672A4F8DE700CC90E1 /* Service */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Service; sourceTree = "<group>"; };
+		7D96D9692A4F8DFF00CC90E1 /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
+		7D96D96B2A4F921300CC90E1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8AA4E2F095AB4ED112AA41D3 /* Pods-SilverConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverConnect.release.xcconfig"; path = "Target Support Files/Pods-SilverConnect/Pods-SilverConnect.release.xcconfig"; sourceTree = "<group>"; };
 		ACCB9613FF2C884CC3410A27 /* Pods-SilverConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverConnect.debug.xcconfig"; path = "Target Support Files/Pods-SilverConnect/Pods-SilverConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		EBAEA31768FE1CFBC9CE9A8F /* Pods_SilverConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				7D96D9582A4F24D500CC90E1 /* assest */,
+				7D96D9692A4F8DFF00CC90E1 /* ViewController */,
+				7D96D9672A4F8DE700CC90E1 /* Service */,
+				7D96D9652A4F8DC600CC90E1 /* Model */,
 				7D96D9512A4F170100CC90E1 /* MyPageViewController */,
 				7D45DBC22A4EF3120001CF97 /* AppDelegate.swift */,
 				7D45DBC42A4EF3120001CF97 /* SceneDelegate.swift */,
@@ -107,6 +118,7 @@
 				7D45DBD02A4EF3130001CF97 /* Info.plist */,
 				7D96D95D2A4F53EC00CC90E1 /* WriteViewController.swift */,
 				7D96D9632A4F81B300CC90E1 /* ReadViewController.swift */,
+				7D96D96B2A4F921300CC90E1 /* MapViewController.swift */,
 			);
 			path = SilverConnect;
 			sourceTree = "<group>";
@@ -191,8 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D96D9682A4F8DE700CC90E1 /* Service in Resources */,
+				7D96D9662A4F8DC600CC90E1 /* Model in Resources */,
 				7D45DBCF2A4EF3130001CF97 /* LaunchScreen.storyboard in Resources */,
 				7D45DBCC2A4EF3130001CF97 /* Assets.xcassets in Resources */,
+				7D96D96A2A4F8DFF00CC90E1 /* ViewController in Resources */,
 				7D96D95A2A4F24EB00CC90E1 /* 코테이토.png in Resources */,
 				7D45DBCA2A4EF3120001CF97 /* Main.storyboard in Resources */,
 			);
@@ -247,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D96D96C2A4F921300CC90E1 /* MapViewController.swift in Sources */,
 				7D96D9532A4F182800CC90E1 /* FirstViewController.swift in Sources */,
 				7D96D9572A4F1A0900CC90E1 /* MyPageViewController.swift in Sources */,
 				7D45DBC72A4EF3120001CF97 /* ViewController.swift in Sources */,
