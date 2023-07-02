@@ -43,6 +43,7 @@
                     <tabBarItem key="tabBarItem" title="지도" image="map.fill" catalog="system" landscapeImage="map.fill" id="yKP-xv-jxl"/>
                     <connections>
                         <outlet property="mapView" destination="uor-bu-Ptb" id="8yh-in-b6V"/>
+                        <outlet property="myLocationBtn" destination="gD2-rF-KSb" id="md7-CF-wHH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -288,7 +289,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Pgi-FN-aSs">
-                                                        <rect key="frame" x="0.0" y="69.999999999999972" width="177" height="50"/>
+                                                        <rect key="frame" x="0.0" y="69.999999999999972" width="179.33333333333334" height="50"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar.badge.clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EDo-cP-vLb">
                                                                 <rect key="frame" x="0.0" y="1.6666666666666643" width="51.333333333333329" height="48.666666666666671"/>
@@ -298,7 +299,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="jqn-m7-IKB">
-                                                                <rect key="frame" x="70" y="0.0" width="107" height="50"/>
+                                                                <rect key="frame" x="70" y="0.0" width="109.33333333333331" height="50"/>
                                                             </datePicker>
                                                         </subviews>
                                                     </stackView>
@@ -634,7 +635,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="X8V-tu-jow">
-                                <rect key="frame" x="13.666666666666657" y="77" width="365.66666666666674" height="655"/>
+                                <rect key="frame" x="13.666666666666657" y="77" width="365.66666666666674" height="595"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="260" translatesAutoresizingMaskIntoConstraints="NO" id="Jhm-63-dvy">
                                         <rect key="frame" x="6" y="0.0" width="353.66666666666669" height="34.333333333333336"/>
@@ -650,8 +651,8 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="nF8-HR-Bwq">
-                                        <rect key="frame" x="0.0" y="64.333333333333314" width="365.66666666666669" height="590.66666666666674"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="nF8-HR-Bwq">
+                                        <rect key="frame" x="0.0" y="64.333333333333314" width="365.66666666666669" height="530.66666666666674"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="3it-Zb-VTz">
                                                 <rect key="frame" x="0.0" y="0.0" width="365.66666666666669" height="90.666666666666671"/>
@@ -708,8 +709,8 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="ihD-bS-JVq">
-                                                <rect key="frame" x="0.0" y="160.66666666666669" width="365.66666666666669" height="430.00000000000006"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ihD-bS-JVq">
+                                                <rect key="frame" x="0.0" y="190.66666666666669" width="365.66666666666669" height="340.00000000000006"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="43s-WS-Sna">
                                                         <rect key="frame" x="0.0" y="0.0" width="365.66666666666669" height="70"/>
@@ -749,7 +750,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gft-u3-JPk">
-                                                        <rect key="frame" x="0.0" y="120" width="365.66666666666669" height="70"/>
+                                                        <rect key="frame" x="0.0" y="90" width="365.66666666666669" height="70"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRX-Iw-qIS">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -786,7 +787,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="fwm-au-Taw">
-                                                        <rect key="frame" x="0.0" y="240" width="365.66666666666669" height="70"/>
+                                                        <rect key="frame" x="0.0" y="180" width="365.66666666666669" height="70"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXx-ro-YCW">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -823,7 +824,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ap0-Op-gkj">
-                                                        <rect key="frame" x="0.0" y="360" width="365.66666666666669" height="70"/>
+                                                        <rect key="frame" x="0.0" y="270" width="365.66666666666669" height="70"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waO-iF-FN6">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>

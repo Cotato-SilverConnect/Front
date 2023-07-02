@@ -28,14 +28,14 @@ class SecondViewController: UIViewController {
                     print("수정 클릭")
                     success(true)
                 }
-        edit.backgroundColor = .systemPink
+        edit.backgroundColor = .systemBlue
                 
                 
         let del = UIContextualAction(style: .normal, title: "삭제") { (UIContextualAction, UIView, success: @escaping (Bool) -> Void) in
             print("삭제 클릭")
             success(true)
         }
-        del.backgroundColor = .systemTeal
+        del.backgroundColor = .systemRed
         
         //actions배열 인덱스 0이 왼쪽에 붙어서 나옴
         return UISwipeActionsConfiguration(actions:[edit, del])
